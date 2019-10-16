@@ -1,9 +1,9 @@
 import React from 'react';
-import './style.css';
+import style from './style.module.css';
 
 const TopNav = () => (
     <div className='top-nav'>
-        Home | Sobre nós | Contato | Menu
+        
     </div>
 );
 

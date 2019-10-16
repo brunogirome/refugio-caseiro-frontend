@@ -8,7 +8,7 @@ const Home = () => {
             <BlackNav />
             <BannerContainer Tittle='Monte a sua marmita fitness'/>
             <h1>
-                Hello World.
+                Home container.
             </h1>
         </div>
     );

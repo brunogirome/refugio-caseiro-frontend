@@ -2,15 +2,15 @@ import React from 'react';
 
 import TopNav from './logo-top-nav/index';
 
-import './style.css';
+import style from './style.module.css';
 
 
 function BannerContainer({ Tittle }) {
     return (
-        <div className='container-banner'>
-            <div className='banner-img' />
-            <div className='black-glass'>
-                <div className='tittle'>
+        <div className={style.container}>
+            <div className={style.banner} />
+            <div className={style.blackGlass}>
+                <div className={style.tittle}>
                     {Tittle}
                 </div>
             </div>

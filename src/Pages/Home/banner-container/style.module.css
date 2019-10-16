@@ -1,12 +1,12 @@
 @import '../../../Assets/global.css';
 
-.container-banner
+.container
 {
     width: 100%;
     height: 700px;
 }
 
-.banner-img
+.banner
 {
     width: 100%;
     height: 700px;
@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
 }
 
-.black-glass
+.blackGlass
 {
     width: 100%;
     height: 700px;

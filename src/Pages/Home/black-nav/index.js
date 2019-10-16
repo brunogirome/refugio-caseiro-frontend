@@ -1,18 +1,18 @@
 import React from 'react';
-import './style.css';
+import style from './style.module.css';
 
 const BlackNav = () => (
-    <div className='bg'>
-        <div className='container'>
-            <div className='left'>
+    <div className={style.bg}>
+        <div className={style.container}>
+            <div className={style.left}>
                     Dúvidas no WhatsAPP
-                <div className='green-text'>
+                <div className={style.greenText}>
                     (11) 98787-1021
                 </div>
             </div>
-            <div className='right'>
+            <div className={style.right}>
                     Já sou Cadastrado
-                <div className='green-text'>
+                <div className={style.greenText}>
                     Cadastrar
                 </div>
             </div>
