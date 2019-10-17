@@ -2,27 +2,27 @@ import React from 'react';
 
 import { Container, Content, GreenText } from './styles';
 
-import WhatsApp from '../../../Components/Svgs/whatsapp'
+import WhatsApp from '../../../Components/Svgs/whatsapp';
 
-const blackNav = () => 
-(
-    <Container>
-        <Content>
-            <left>
-                Dúvidas pelo WhatsApp 
+const blackNav = () =>
+    (
+        <Container>
+            <Content>
+                <div>
+                    Dúvidas pelo WhatsApp
+                    <GreenText>
+                        <WhatsApp />
+                        (11) 98989-2424
+                    </GreenText>
+                </div>
+                <div>
+                    Já sou cadastrado
                 <GreenText>
-                    <WhatsApp/>
-                    (11) 98989-2424
+                        Cadastrar
                 </GreenText>
-            </left>
-            <div>
-                Já sou cadastrado
-                <GreenText>
-                    Cadastrar
-                </GreenText>
-            </div>
-        </Content>
-    </Container>
-);
+                </div>
+            </Content>
+        </Container>
+    );
 
 export default blackNav;

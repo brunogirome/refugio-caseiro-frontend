@@ -4,11 +4,10 @@ export const Container = styled.div`
     width: 100%;
     height: 30px;
     line-height: 30px;
-    //background-color: var(--bg-black);
-    background-color: #fafafa;
+    background-color: var(--bg-black);
     display: flex;
     justify-content: center;
-    font-size: 16px;
+    font-size: 14px;
 `;
 
 export const Content = styled.div`
@@ -17,13 +16,6 @@ export const Content = styled.div`
     flex-direction: row;
     justify-content: space-between;
     color: var(--text-grey);
-
-    WhatsApp 
-    {
-        width: 18px;
-        height: 18px;
-        background-color: red;
-    }
 `;
 
 export const GreenText = styled.span`
@@ -31,4 +23,13 @@ export const GreenText = styled.span`
     color: var(--text-green);
     margin-left: 10px;
     text-transform: uppercase;
+
+    svg
+    {
+        width: 18px;
+        height: 18px;
+        fill: var(--text-green);
+        vertical-align: middle;
+        margin-right: 3px;
+    }
 `;
