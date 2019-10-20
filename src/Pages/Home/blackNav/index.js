@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Content, GreenText } from './styles';
 
-import WhatsApp from '../../../Components/Svgs/whatsapp';
+import { ReactComponent as WhatsApp } from '../../../Assets/whatsapp.svg';
 
 const blackNav = () =>
     (
