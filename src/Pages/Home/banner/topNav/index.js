@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { Container, NavContainer, NavSection, Logo } from './styles';
+import { Container, NavContainer, NavSection } from './styles';
+
+import { ReactComponent as Logo } from '../../../../Assets/refugio-logo.svg';
 
 const topNav = () =>
     <Container>

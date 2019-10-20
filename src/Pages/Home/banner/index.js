@@ -1,24 +1,43 @@
 import React from 'react';
 
 import TopNav from './topNav/index';
+import RoundButton from '../../../Components/RoundButton/index';
 
-import { Container, DarkGlass, Tittle } from './styles';
+import { Container, DarkGlass, Tittle, ButtonContainer, GuideSection } from './styles';
 
 const banner = () => {
     return (
-      <Container>
-        <DarkGlass>
-            <div>
-                <TopNav />
-            </div>
-            <Tittle>
-                Monte a sua marmita fitness
+        <>
+            <Container>
+                <DarkGlass>
+                    <topnav>
+                        <TopNav />
+                    </topnav>
+                    <Tittle>
+                        Monte a sua marmita fitness
                 <span>
-                    Confira as calorias na hora de montar seu prato
+                            Confira as calorias na hora de montar seu prato
                 </span>
-            </Tittle>
-        </DarkGlass>
-      </Container>  
+                    </Tittle>
+                    <ButtonContainer>
+                        <RoundButton bgColor='var(--text-green)'>
+                            Monte a sua
+                    </RoundButton>
+                        <RoundButton>
+                            Cardápio
+                    </RoundButton>
+                    </ButtonContainer>
+                </DarkGlass>
+            </Container>
+            <GuideSection>
+                <div>
+                    Dúvidas em como montar seu prato?
+                    <RoundButton bgColor='var(--light-1)' txtColor='var(--bg-black)'>
+                        Confira o guia
+                    </RoundButton>
+                </div>
+            </GuideSection>
+        </>
     );
 };
 

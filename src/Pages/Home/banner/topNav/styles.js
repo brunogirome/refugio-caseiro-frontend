@@ -28,9 +28,3 @@ export const NavSection = styled.li`
         color: var(--text-green);
     }
 `;
-
-export const Logo = styled.div`
-    width: 150px;
-    height: 100px;
-    background-color: var(--text-green);
-`;
