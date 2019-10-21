@@ -6,20 +6,27 @@ export const Container = styled.div`
     background-color: var(--light-1);
     display: flex;
     justify-content: center;
+    align-items: center;
 `;
 
 export const Content = styled.div`
-    width: 860px;
+    //width: 860px;
+    width: 1000px;
     height: 460px;
-    border: 1px solid grey;
     display: flex;
     flex-direction: row;
-    padding-top: 35px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
 `;
 
 export const TextContent = styled.div`
     display: flex;
     justify-content: center;
+    height: 430px;
+    width: 480px;
+    margin-right: 140px;
+    color: var(--light-2);
 `;
 
 export const ContainerImage = styled.div `
@@ -34,8 +41,6 @@ export const MainText = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: blue;
-    
 
     h1 {
         font-size: 36px;
@@ -43,4 +48,8 @@ export const MainText = styled.div`
         text-transform: uppercase;
         color: var(--text-green);
     }
+`;
+
+export const SocialContainer = styled.div`
+
 `;

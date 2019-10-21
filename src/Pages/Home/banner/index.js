@@ -3,16 +3,16 @@ import React from 'react';
 import TopNav from './topNav/index';
 import RoundButton from '../../../Components/RoundButton/index';
 
-import { Container, DarkGlass, Tittle, ButtonContainer, GuideSection } from './styles';
+import { Container, DarkGlass, Tittle, ButtonContainer, GuideSection, TopContainer } from './styles';
 
 const banner = () => {
     return (
         <>
             <Container>
                 <DarkGlass>
-                    <topnav>
+                    <TopContainer>
                         <TopNav />
-                    </topnav>
+                    </TopContainer>
                     <Tittle>
                         Monte a sua marmita fitness
                 <span>

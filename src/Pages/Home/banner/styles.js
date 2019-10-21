@@ -12,17 +12,17 @@ export const Container = styled.div`
     background-position: center center;
 `;
 
+
 export const DarkGlass = styled.div`
     width: 100%;
     height: 700px;
     background-color: rgba(0,0,0, 0.5);
-    topnav
-    {
-        display: flex;
-        justify-content: center;
-    }
 `;
 
+export const TopContainer = styled.div`
+    display: flex;
+    justify-content: center;
+`;
 export const Tittle = styled.h1`
     color: var(--light-1);
     text-transform: uppercase;
