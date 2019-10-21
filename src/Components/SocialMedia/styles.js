@@ -4,9 +4,9 @@ export const Container = styled.div`
     height: ${props => props.containerHeight};
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: left;
     font-size: props;
-    font-size: ${props => props.fontSize}
+    font-size: ${props => props.fontSize};
 `;
 
 export const ButtonContainer = styled.div`

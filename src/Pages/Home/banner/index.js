@@ -15,17 +15,17 @@ const banner = () => {
                     </TopContainer>
                     <Tittle>
                         Monte a sua marmita fitness
-                <span>
+                        <span>
                             Confira as calorias na hora de montar seu prato
-                </span>
+                        </span>
                     </Tittle>
                     <ButtonContainer>
                         <RoundButton bgColor='var(--text-green)'>
                             Monte a sua
-                    </RoundButton>
+                        </RoundButton>
                         <RoundButton>
                             Cardápio
-                    </RoundButton>
+                        </RoundButton>
                     </ButtonContainer>
                 </DarkGlass>
             </Container>
