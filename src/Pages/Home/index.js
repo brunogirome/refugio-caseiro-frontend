@@ -1,9 +1,11 @@
 import React from 'react';
 
+import { Container } from './styles';
+
 import BlackNav from './blackNav/index';
 import Banner from './banner/index';
 import About from './about/index';
-import { Container } from './styles';
+import Special from './special/index';
 
 const Home = () => {
   return (
@@ -11,6 +13,7 @@ const Home = () => {
         <BlackNav />
         <Banner />
         <About />
+        <Special />
     </ Container>
   );
 }
