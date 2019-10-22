@@ -6,6 +6,7 @@ import BlackNav from './blackNav/index';
 import Banner from './banner/index';
 import About from './about/index';
 import Special from './special/index';
+import Diet from './diet/index';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Banner />
         <About />
         <Special />
+        <Diet />
     </ Container>
   );
 }
