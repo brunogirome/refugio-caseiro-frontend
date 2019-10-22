@@ -7,6 +7,7 @@ import Banner from './banner/index';
 import About from './about/index';
 import Special from './special/index';
 import Diet from './diet/index';
+import Footer from '../../Components/Footer/index.js';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <About />
         <Special />
         <Diet />
+        <Footer />
     </ Container>
   );
 }

@@ -4,48 +4,36 @@ import Common from '../../Assets/diet-common.png'
 import Fitness from '../../Assets/diet-fitness.png'
 import Vegan from '../../Assets/diet-vegan.png';
 
-import { Container, Content, Tittle} from './styles';
+import { Container, Content, Tittle } from './styles';
 
 const CardDiet = ({ type }) => {
-
-    let color, image, tittle, sub;
-
-    const setAttributes = (c, i, t, s) => {
-        color = c;
-        image = i;
-        tittle = t;
-        sub = s;
-    }
+    
+    let Attributes = { color: null, image: null, tittle: null, sub: null };
 
     switch (type) {
         case 1:
-            setAttributes
-                (
-                    "#9E8376",
-                    Common,
-                    "Comum",
-                    "Para aqueles que comem de tudo!"
-                );
+            Attributes.color = '#9E8376';
+            Attributes.image = Common;
+            Attributes.tittle = 'Comum';
+            Attributes.sub = 'Para aqueles que comem de tudo!';
             break;
         case 2:
-            setAttributes
-                (
-                    "#DDC700",
-                    Fitness,
-                    "Fitness",
-                    "Baixa calorias e dieta equilibrada."
-                );
+            Attributes.color = '#DDC700';
+            Attributes.image = Fitness;
+            Attributes.tittle = 'Fitness';
+            Attributes.sub = 'Baixa calorias e dieta equilibrada.';
             break;
         case 3:
-            setAttributes
-                (
-                    "#6ED178",
-                    Vegan,
-                    "Vegana",
-                    "Apenas Verde! Sem origem animal."
-                );
+            Attributes.color = '#6ED178';
+            Attributes.image = Vegan;
+            Attributes.tittle = 'Vegana';
+            Attributes.sub = 'Apenas Verde! Sem origem animal.';
+            break;
+        default:
             break;
     }
+
+    const { color, image, tittle, sub } = Attributes;
 
     return (
         <Container image={image} >

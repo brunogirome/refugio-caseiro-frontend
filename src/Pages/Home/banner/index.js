@@ -20,7 +20,7 @@ const banner = () => {
                         </span>
                     </Tittle>
                     <ButtonContainer>
-                        <RoundButton bgColor='var(--text-green)'>
+                        <RoundButton bgColor='var(--text-green)' hover='var(--bg-black)'>
                             Monte a sua
                         </RoundButton>
                         <RoundButton>

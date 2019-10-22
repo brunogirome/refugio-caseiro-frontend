@@ -10,4 +10,14 @@ export const Container = styled.button`
   font-family: 'Roboto Slab', sans-serif;
   border-radius: 30px;
   height: min-content;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  
+  &:hover{
+    color: ${props => props.hover };
+  }
+
+  &:actvive {
+
+  }
 `;

@@ -13,7 +13,7 @@ const MobileButton = ({ type }) => {
         <Container>
             {Label}
             <div>
-                <img src={Type}/>
+                <img src={Type} alt ='PhoneLogo' />
             </div>
         </Container>
     );
